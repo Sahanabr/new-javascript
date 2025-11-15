@@ -1,1 +1,28 @@
 js is a high level language that adds up action to your screen or make your screen live.
+script : coding structure or coding syntax.
+multiple line comment : ctrl + /
+single line comment : //
+
+var:
+  var is function scope
+  it can be redeclared and re initialize
+
+let:
+  let is block scope
+  it cannot be redeclared and can be re initialize
+
+const:
+const is block scope
+it cannot be redeclared and cannot be re initialize
+
+git branch
+git status
+git add .
+git status
+git commit -m "my first commit";
+git status
+git push
+
+terinary condition:
+(condition)?(statement 1);(statement 2);
+if condition is true statement1 executes else statement 2
