@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>My page</title>
+        <script>
+            function abc(){
+                console.log("I am in change method"); 
+            }
+            function mnc(){
+                console.log("I am in blur method");
+            }
+            function efg(){
+                console.log("I am executing mouse over");
+            }
+            function xyz(){
+                console.log("I am executing mouse out");
+            }
+        </script>
+    </head>
+
+    <!-- JS events -->
+    <!-- onchange , onblur , onmouseover , onmouseout -->
+    <body>
+        <input type="text" name="fname" onblur="mnc()"  onchange="abc()" value=""/>
+        <button onmouseover="efg()" onmouseout="xyz()" >Submit</button>
+    </body>
+</html>

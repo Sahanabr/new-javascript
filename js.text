@@ -4,16 +4,16 @@ multiple line comment : ctrl + /
 single line comment : //
 
 var:
-  var is function scope
-  it can be redeclared and re initialize
+  var is function scope.
+  it can be redeclared and re initialize.
 
 let:
-  let is block scope
-  it cannot be redeclared and can be re initialize
+  let is block scope.
+  it cannot be redeclared and can be re initialize.
 
 const:
-const is block scope
-it cannot be redeclared and cannot be re initialize
+const is block scope.
+it cannot be redeclared and cannot be re initialize.
 
 git branch
 git status
