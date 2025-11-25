@@ -27,3 +27,24 @@ console.log(final);
  }
  let valuee=new House2("My house");    //here we create an instance of House2 class.
  valuee.myHouse();
+
+
+ class Bank{
+    #balance;               // private field
+    constructor(balance){
+     this.#balance=balance;
+    }
+    bankBalance(){          // public method to access private field
+        console.log(`I have a balance ${this.#balance}`);
+    }
+ }
+ let value1=new Bank(1000);
+ value1.bankBalance();
+//console.log(value1.#balance); // Error: Private field '#balance' must be declared in an enclosing class)
+
+ /*In this example, we have a Bank class with a private field #balance.
+  The constructor initializes the balance, and the public method bankBalance()
+   allows access to the private balance field from outside the class.*/
+
+ /*Encapsulation : making your variable private using # symbol so that it cannot be accessed
+  from outside the class directly. It can be accessed only through public methods of the class.*/

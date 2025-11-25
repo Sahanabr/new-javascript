@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Speeding system</title>
+        <script>
+            function Speeding(){
+                let speed=0;
+                return{
+                    accelerate:function(){
+                        speed=speed+10;
+                        return speed;
+                    },
+                    breaks:function(){
+                        speed=speed - 5;
+                        return speed;
+                    },
+                };
+            }
+    
+            let data=Speeding();
+            let statement="";
+
+            function breaks(){
+                let value=data.breaks();
+                statement=`i am driving at a speed ${value}`;
+                document.getElementById("action").innerHTML=statement;
+            }
+
+            function accelerate(){
+                let value=data.accelerate();
+                statement=`i am driving at a speed ${value}`;
+                document.getElementById("action").innerHTML=statement;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>My first action page in html</h1>
+        <h3 id="action"></h3>
+        <button onclick="breaks()">Break</button>
+        <button onclick="accelerate()">Accelerate</button>
+    </body>
+</html>
