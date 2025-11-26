@@ -3,7 +3,7 @@
 
 class Bank{
     bankBalance(){
-        console.log("My bank balance");
+        console.log("My bank balance is");
     }
 }
  class AxisBank extends Bank{
@@ -11,10 +11,11 @@ class Bank{
         console.log("My Axis bank balance ");
 }    
 }
-
+let value = new AxisBank();
+value.bankBalance();
 
 class DL {
-    isEligible(name,age){
+    isEligible(name,age,location){
         if (age == undefined || age <18){
             console.log("Not eligible");
         } else {
@@ -25,6 +26,7 @@ class DL {
 let valuee=new DL();
 valuee.isEligible("Sahana");   
 valuee.isEligible("Sahana",20);     // method overloading simulation
+valuee.isEligible("Sahanaa",22,"rmg");
 
 /* Method overloading : JavaScript does not support method overloading natively. 
  However, we can simulate it by checking the number and types of arguments
