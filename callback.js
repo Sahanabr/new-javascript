@@ -99,6 +99,14 @@ sequence of multiple asynchronous operations in JavaScript.*/
 
 //CALLBACK HELL: when we have multiple nested callbacks which makes the code hard to read and maintain.
 
-//To avoid callback hell we can use Promises and async/await in JavaScript.
+//To avoid/overcome callback hell we can use Promises and async/await in JavaScript.
 
+
+class Car{
+    constructor(name){
+        this.name = name;
+    }
+}
+let value = new Car("BMW");
+console.log(value);
     

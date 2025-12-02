@@ -28,3 +28,7 @@ terinary condition:
 if condition is true statement1 executes else statement 2
 
 ---> js file will run on any browser, each browser as its own JVM.
+
+
+package : is a collection of modules.
+module : is a collection of logic.
