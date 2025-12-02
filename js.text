@@ -32,3 +32,5 @@ if condition is true statement1 executes else statement 2
 
 package : is a collection of modules.
 module : is a collection of logic.
+
+react is a single page application built on js library.
